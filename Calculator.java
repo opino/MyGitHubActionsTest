@@ -8,7 +8,7 @@ public class Calculator {
         double num1 = scanner.nextDouble();
 
         System.out.print("Geben Sie die zweite Zahl ein: ");
-        double num2 = scanner.nextDoubleXXX();
+        double num2 = scanner.nextDoubleyy();
 
         System.out.print("Geben Sie die Operation ein (+, -, *, /): ");
         char operation = scanner.next().charAt(0);
