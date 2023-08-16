@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //creating a error nextDouble() -> yy
+        //creating a error nextDouble() -> 11
         System.out.print("Geben Sie die erste Zahl ein: ");
         double num1 = scanner.nextDoubleyy;
 
