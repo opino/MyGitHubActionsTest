@@ -5,7 +5,7 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         //creating a error nextDouble() -> 11
         System.out.print("Geben Sie die erste Zahl ein: ");
-        double num1 = scanner.nextDouble33;
+        double num1 = scanner.nextDouble();
 
         System.out.print("Geben Sie die zweite Zahl ein: ");
         double num2 = scanner.nextDouble();
