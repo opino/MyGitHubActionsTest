@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //Test
+        //creating a error nextDouble() -> xx
         System.out.print("Geben Sie die erste Zahl ein: ");
-        double num1 = scanner.nextDouble();
+        double num1 = scanner.nextDoublexx;
 
         System.out.print("Geben Sie die zweite Zahl ein: ");
         double num2 = scanner.nextDouble();
