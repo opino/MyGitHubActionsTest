@@ -41,6 +41,27 @@ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -Darchety
 C:\Users\xxxxx\Desktop\MavenTest\MyGitHubActionsTest\my-app\src\test\java\com\mycompany\app  -> JUnit Test
 C:\Users\xxxxx\Desktop\MavenTest\MyGitHubActionsTest\my-app\src\main\java\com\mycompany\app  -> Java Klasse 
 
+### Java compilieren
+
+```
+mvn compile
+```
+
+schlägt fehl weil ich JRE installiert habe, da aber in Github compiliert werden soll, kann das ausgelassen werden.
+
+### git push
+
+* https://thomas-leister.de/git-fuer-einsteiger/
+* theoretisch geht es so:
+* 
+```
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+
+
 
 ## Java Klasse vs. Swing Project
 
