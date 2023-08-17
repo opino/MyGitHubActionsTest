@@ -24,16 +24,25 @@ Maven führt folgende Schritte durch:
 * compile (kompiliert in alle möglichen Formate, ist im POM File definiert)
 * test
 * package (.war oder .jars erstellen)
-* veryfiy
+* verify
 * install (lokal in ein Verzeichniss kopieren)
 * deploy (ins Maverepository kopieren und verfügbar machen, nicht auf den Anwendungsserver)
 
-## Maven Projekt erstellen:
+### Maven Projekt erstellen:
 
+* Erstellt das Mavenprojekt mit der gewünschten Verzeichnisstruktur.
+* von https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
+```
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+```
+### Java Klasse und JUnit im richtigen Verzeichniss ablegen
+
+C:\Users\xxxxx\Desktop\MavenTest\MyGitHubActionsTest\my-app\src\test\java\com\mycompany\app  -> JUnit Test
+C:\Users\xxxxx\Desktop\MavenTest\MyGitHubActionsTest\my-app\src\main\java\com\mycompany\app  -> Java Klasse 
 
 
 ## Java Klasse vs. Swing Project
 
 Dieses Beispiel enthält einen Taschenrechner und JUnittest erstellt von ChatGPT.
-Im nächsten Schritt soll dieses Projket wiederholt werden nur mit einer SPRINg Applikation. 
+Im nächsten Schritt soll dieses Projket wiederholt werden nur mit einer SPRING Applikation. 
