@@ -1,5 +1,5 @@
 # MyGitHubActionsTest
-Repository that demonstrates GitHubActions
+Repository that demonstrates GitHubActions mit Java Maven
 
 ## Vorausetzungen Software
 
@@ -10,8 +10,22 @@ VS Code
 
 ## Java Maven
 
-Es gibt fertige Workflows für 
-https://www.youtube.com/watch?v=ExKq23bNABk
+Es gibt fertige Workflows für Ant, Grant, Maven. 
+
+Ant ist alt und konnte ich nicht auf meinem Rechner installieren. Nach Rücksprache haben wir uns für Maven entschieden.
+Ich wusste von Maven nur das es eine Build Tool ist. Das folgende Video erklärt die Kette die Maven abarbeitet:
+
+   https://www.youtube.com/watch?v=ExKq23bNABk
+
+Dreh und Angelpunkt von Maven ist die pom.xml (Project Object Model), dort wird definiert was maven tun soll
+
+* validate (optional)
+* compile (kompiliert in alle möglichen Formate, ist im POM File definiert)
+* test
+* package (war oder jars erstellen)
+* veryfiy
+* install (lokal in ein Verzeichniss kopieren)
+* deploy (ins Maverepository kopieren und verfügbar machen, nicht auf den Anwendungsserver)
 
 ## Java Klasse vs. Swing Project
 
