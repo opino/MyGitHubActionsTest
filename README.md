@@ -60,7 +60,9 @@ git commit -m "Initial commit"
 git push -u origin master
 ```
 
+### pom.xml muss auf Ebene von .git
 
+ich habe das Projet falsch erstellt, die pom.xml liegt im falschen Verzeichniss
 
 
 ## Java Klasse vs. Swing Project
