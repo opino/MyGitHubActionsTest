@@ -28,10 +28,10 @@ Maven führt folgende Schritte durch:
 * install (lokal in ein Verzeichniss kopieren)
 * deploy (ins Maverepository kopieren und verfügbar machen, nicht auf den Anwendungsserver)
 
-## Maven Projekt erstellen:
+### Maven Projekt erstellen:
 
-Erstellt das Mavenprojekt mit der gewünschten Verzeichnisstruktur.
-Quelle: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+* Erstellt das Mavenprojekt mit der gewünschten Verzeichnisstruktur.
+* von https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 ```
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 ```
