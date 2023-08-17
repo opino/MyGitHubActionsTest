@@ -36,6 +36,11 @@ Maven führt folgende Schritte durch:
 ```
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 ```
+### Java Klasse und JUnit im richtigen Verzeichniss ablegen
+
+C:\Users\xxxxx\Desktop\MavenTest\MyGitHubActionsTest\my-app\src\test\java\com\mycompany\app  -> JUnit Test
+C:\Users\xxxxx\Desktop\MavenTest\MyGitHubActionsTest\my-app\src\main\java\com\mycompany\app  -> Java Klasse 
+
 
 ## Java Klasse vs. Swing Project
 
